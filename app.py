@@ -14,7 +14,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Running on: {device}")
 
 # ▶ Change these two values to match your HF username and model repo name
-HF_REPO_ID   = "ahmadyarpk/fence-removal"   # e.g. "ahmadyar/fence-removal"
+HF_REPO_ID   = "userahmad/fence-removal"   # e.g. "userahmad/fence-removal"
 HF_FILENAME  = "ckpt_epoch_150.pth"
 
 IMAGE_SIZE = 256
